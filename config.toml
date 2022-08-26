@@ -1,0 +1,4 @@
+baseURL = 'https://jonbooz.org/'
+languageCode = 'en-us'
+title = 'Jon Booz'
+theme = "ananke"
