@@ -12,7 +12,7 @@ outputs:
 params:
   env: production
   description: "Jon Booz - Meditations on Life"
-  author: :Jon Booz"
+  author: Jon Booz
 
   homeInfoParams:
     Title: "Jon Booz"
