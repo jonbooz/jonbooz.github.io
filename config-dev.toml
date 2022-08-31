@@ -1,13 +1,13 @@
-baseURL = "https://jonbooz.github.io/"
+baseURL = "http://jonbooz-com-dev.s3-website-us-east-1.amazonaws.com/"
 languageCode = "en-us"
-title = "Jon Booz"
+title = "Jon Booz (dev)"
 theme = "PaperMod"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
 
 [params]
-env = "production"
+env = "dev"
 description = "Jon Booz - Meditations on Life"
 author = "Jon Booz"
 
@@ -16,3 +16,10 @@ Title = "Jon Booz"
 Content = """
 Jon Booz's Meditations on Life
 """
+
+[deployment]
+order = [ ".jpg$", ".gif$" ]
+
+[[deployment.targets]]
+name = "s3-dev"
+URL = "s3://jonbooz-com-dev?region=us-east-1"
