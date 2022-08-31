@@ -11,7 +11,7 @@ env = "production"
 description = "Jon Booz - Meditations on Life"
 author = "Jon Booz"
 
-[[params.homeInfoParams]]
+[params.homeInfoParams]
 Title = "Jon Booz"
 Content = """
 Jon Booz's Meditations on Life
