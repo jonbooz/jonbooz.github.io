@@ -13,9 +13,6 @@ author = "Jon Booz"
 
 [params.homeInfoParams]
 Title = "Jon Booz"
-Content = """
-Jon Booz's Meditations on Life
-"""
 
 [deployment]
 order = [ ".jpg$", ".gif$" ]
