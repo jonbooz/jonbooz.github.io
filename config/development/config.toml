@@ -1,0 +1,11 @@
+buildDrafts = "true"
+
+[params]
+env = "development"
+
+[deployment]
+order = [ ".jpg$", ".gif$" ]
+
+[[deployment.targets]]
+name = "s3-dev"
+URL = "s3://jonbooz-com-dev?region=us-east-1"
