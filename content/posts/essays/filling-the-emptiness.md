@@ -1,6 +1,6 @@
 ---
 title: "Filling the Emptiness of Life"
-date: 2022-09-12T00:00:00-04:00
+date: 2022-09-11T00:00:00-04:00
 draft: true
 ---
 
