@@ -1,0 +1,1 @@
+These essays are longer-form, more refined thoughts that I've had about life and living.
