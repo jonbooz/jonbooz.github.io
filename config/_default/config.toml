@@ -7,7 +7,6 @@ theme = "PaperMod"
 home = [ "HTML", "RSS", "JSON" ]
 
 [params]
-env = "production"
 description = "Jon Booz - Meditations on Life"
 author = "Jon Booz"
 
