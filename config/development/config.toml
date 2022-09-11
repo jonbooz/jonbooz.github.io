@@ -1,4 +1,5 @@
 buildDrafts = "true"
+baseURL = "http://jonbooz-com-dev.s3-website-us-east-1.amazonaws.com"
 
 [params]
 env = "development"
